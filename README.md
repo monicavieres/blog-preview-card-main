@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution in Github](https://github.com/monicavieres/blog-preview-card-main)
-- Live Site URL: [Live Solution in Vercel](https://qr-code-component-main-seven-gold.vercel.app/)
+- Live Site URL: [Live Solution in Vercel](https://blog-preview-card-main-taupe-one.vercel.app/)
 
 ## My process
 
