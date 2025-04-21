@@ -19,6 +19,10 @@ body{
   height: 100vh;
 }
 
+p, h1 {
+  margin: 0;
+}
+
 .card_container {
   display: flex;
   justify-content: center;
@@ -33,6 +37,9 @@ body{
   box-shadow: 8px 8px 0px 0px #000000;
   padding: 24px;
   max-width: 338px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   @media screen and (max-width: 375px) {
    max-width: 279px; 
   }
@@ -42,6 +49,7 @@ body{
   border-radius: 10px;
   width: 334px;
   height: 200px;
+  margin-bottom: 12px;
   object-fit: cover;
   @media screen and (max-width: 375px) {
    width: 279px;
@@ -107,6 +115,7 @@ body{
   line-height: 150%;
   letter-spacing: 0%;
   font-weight: 800;
+  margin-top: 12px;
 }
 
 .card_avatar {
