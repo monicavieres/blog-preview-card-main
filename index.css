@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;800&display=swap');
+
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-gray-950: hsl(0, 0%, 7%);
+}
+
+html {
+	height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: var(--color-yellow);
+  font-family: Figtree, sans-serif;
+  color: var(---color-gray-950);
+  height: 100vh;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  border: 1px solid var(--color-gray-950);
+  box-shadow: 8px 8px 0px 0px #000000;
+  padding: 24px;
+  max-width: 338px;
+  @media screen and (max-width: 375px) {
+   max-width: 279px; 
+  }
+}
+
+.card_image {
+  border-radius: 10px;
+  width: 334px;
+  height: 200px;
+  object-fit: cover;
+  @media screen and (max-width: 375px) {
+   width: 279px;
+  }
+}
+
+.card_tag {
+  background-color: var(--color-yellow);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: fit-content;
+  @media screen and (max-width: 375px) {
+   font-size: 12px; 
+  }
+}
+
+.card_publish_date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  @media screen and (max-width: 375px) {
+   font-size: 12px; 
+  }
+}
+
+.card_title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0%;
+  &:hover, &:focus, &:active {
+    color: var(--color-yellow);
+  }
+  @media screen and (max-width: 375px) {
+   font-size: 20px; 
+  }
+}
+
+.card_description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-gray-500);
+  line-height: 150%;
+  letter-spacing: 0%;
+  @media screen and (max-width: 375px) {
+   font-size: 14px; 
+  }
+}
+
+.card_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: fit-content;
+  gap: 8px;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-weight: 800;
+}
+
+.card_avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.attribution {
+  align-self: flex-end;
+  justify-self: center;
+}
