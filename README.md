@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution in Github](https://github.com/monicavieres/qr-code-component-main)
+- Solution URL: [Solution in Github](https://github.com/monicavieres/blog-preview-card-main)
 - Live Site URL: [Live Solution in Vercel](https://qr-code-component-main-seven-gold.vercel.app/)
 
 ## My process
